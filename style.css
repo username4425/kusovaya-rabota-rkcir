@@ -1,0 +1,818 @@
+@media (max-width:2560px) {
+    h1 {
+        font-size: 2vw;
+    }
+
+    h2 {
+        font-size: 1.8vw;
+    }
+
+    .text {
+        font-size: 1.35vw;
+    }
+
+    .hostel-text {
+        font-size: 1.35vw;
+        grid-column: 1 / 2;
+    }
+
+    .labs-text {
+        font-size: 1.35vw;
+    }
+
+    .scroll-list-holder {
+        width: 50vw;
+        height: 16vw;
+    }
+
+    .labs-list-text {
+        font-size: 1.3vw;
+    }
+
+    .labs-list-image {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .campuses-grid {
+        display: grid;
+        grid-template-columns: 30% 20% 50%;
+        grid-template-rows: 16.67% 33.33% 50%;
+        gap: 0.5vw;
+        width: calc(100% - 1vw);
+        height: calc(100% - 1vw);
+    }
+
+    #vr78-link {
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+    }
+
+    #vr78 {
+        font-size: 1.8vw;
+    }
+
+    #vr78 .campus-cover {
+        height: 5vw;
+        bottom: -2.7vw;
+        left: -0.5vw;
+        transform: rotate(3deg);
+    }
+
+    #vr86-link {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    #vr86 {
+        font-size: 1.5vw;
+    }
+
+    #vr86 .campus-cover {
+        height: 3.5vw;
+        bottom: -1.2vw;
+        left: -0.5vw;
+        transform: rotate(2deg);
+    }
+
+    #pyataya-sokolinoygori-link {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    #pyataya-sokolinoygori {
+        font-size: 1.3vw;
+    }
+
+    #pyataya-sokolinoygori .campus-cover {
+        height: 4.5vw;
+        bottom: -1vw;
+        left: -0.5vw;
+        transform: rotate(3deg);
+    }
+
+    #malayapirogovskaya-link {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    #malayapirogovskaya {
+        font-size: 1.3vw;
+    }
+
+    #malayapirogovskaya .campus-cover {
+        height: 4vw;
+        bottom: -1vw;
+        left: -0.5vw;
+        transform: rotate(4deg);
+    }
+
+    #strominka20-link {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    #strominka20 {
+        font-size: 1.5vw;
+    }
+
+    #strominka20 .campus-cover {
+        height: 4.5vw;
+        bottom: -1vw;
+        left: -0.5vw;
+        transform: rotate(3deg);
+    }
+
+    .campuses-holder {
+        width: 91vw;
+        height: 31vw;
+    }
+
+    #campuses-header {
+        position: absolute;
+        right: 4vw;
+        margin-top: 0.5vw;
+    }
+
+    #campuses-header2 {
+        display: none;
+    }
+
+    .hostel-list {
+        display: grid;
+        width: 56vw;
+        margin: 0;
+        grid-template-columns: 18vw 18vw 18vw;
+        grid-template-rows: 18vw 18vw;
+        gap: 1vw;
+        grid-column: 2 / 3;
+    }
+
+    .hostel-image-text {
+        font-size: 1.1vw;
+    }
+
+    .hostel-holder {
+        display: grid;
+        grid-template-columns: 1fr 56vw;
+        grid-template-rows: 100%;
+        column-gap: 0.5vw;
+        margin-top: 0.5vw;
+        padding: 1vw;
+        padding-top: 0.5vw;
+    }
+}
+
+@media (hover:hover){
+    .hide-list {
+        overflow-y: hidden;
+    }
+}
+
+@media(hover:none){
+    .hide-list {
+        overflow-y: scroll;
+    }
+
+    .labs-list-scroll {
+        display: none;
+    }
+}
+
+@media (max-width:1000px) {
+    body {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2.2vw;
+    }
+
+    h2 {
+        font-size: 2.2vw;
+    }
+
+    .text {
+        font-size: 1.8vw;
+    }
+
+    .hostel-text {
+        font-size: 1.8vw;
+        grid-column: 1 / 2;
+    }
+
+    .labs-text {
+        font-size: 1.8vw;
+    }
+
+    .labs-list-text {
+        font-size: 1.5vw;
+    }
+
+    .scroll-list-holder {
+        width: 70vw;
+        height: 19vw;
+    }
+
+    .labs-list-image {
+        width: 6vw;
+        height: 6vw;
+    }
+
+    .hostel-image-text {
+        font-size: 1.1vw;
+    }
+
+    .campuses-holder {
+        position: relative;
+        width: 91vw;
+        height: 31vw;
+    }
+
+    #campuses-header {
+        position: absolute;
+        right: 4vw;
+        margin-top: 0.5vw;
+    }
+
+    #campuses-header2 {
+        display: none;
+    }
+
+    .hostel-list {
+        display: grid;
+        width: 56vw;
+        margin: 0;
+        grid-template-columns: 18vw 18vw 18vw;
+        grid-template-rows: 18vw 18vw;
+        gap: 1vw;
+        grid-column: 2 / 3;
+    }
+
+    .hostel-holder {
+        display: grid;
+        grid-template-columns: 1fr 56vw;
+        grid-template-rows: 100%;
+        column-gap: 0.5vw;
+        margin-top: 0.5vw;
+        padding: 1vw;
+        padding-top: 0.5vw;
+    }
+
+    #vr78-link {
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+
+    }
+
+    #vr78 {
+        font-size: 1.8vw;
+    }
+
+    #vr78 .campus-cover {
+        height: 5vw;
+        bottom: -2.7vw;
+        left: -0.5vw;
+        transform: rotate(3deg);
+    }
+
+    #vr86-link {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+
+    #vr86 {
+        font-size: 1.5vw;
+    }
+
+    #vr86 .campus-cover {
+        height: 3.5vw;
+        bottom: -1.2vw;
+        left: -0.5vw;
+        transform: rotate(2deg);
+    }
+
+    #pyataya-sokolinoygori-link {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    #pyataya-sokolinoygori {
+        font-size: 1.3vw;
+    }
+
+    #pyataya-sokolinoygori .campus-cover {
+        height: 4.5vw;
+        bottom: -1vw;
+        left: -0.5vw;
+        transform: rotate(3deg);
+    }
+
+    #malayapirogovskaya-link {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    #malayapirogovskaya {
+        font-size: 1.3vw;
+    }
+
+    #malayapirogovskaya .campus-cover {
+        height: 4vw;
+        bottom: -1vw;
+        left: -0.5vw;
+        transform: rotate(4deg);
+    }
+
+    #strominka20-link {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;;
+    }
+
+    #strominka20 {
+        font-size: 1.5vw
+    }
+
+    #strominka20 .campus-cover {
+        height: 4.5vw;
+        bottom: -1vw;
+        left: -0.5vw;
+        transform: rotate(3deg);
+    }
+
+    .campuses-grid {
+        display: grid;
+        grid-template-columns: 30% 20% 50%;
+        grid-template-rows: 16.67% 33.33% 50%;
+        gap: 0.5vw;
+        width: calc(100% - 1vw);
+        height: calc(100% - 1vw);
+    }
+}
+
+@media (max-width:550px) {
+    body{
+        font-size:1em;
+    }
+    .text {
+        font-size: 0.8em;
+    }
+
+    h1 {
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+
+    .hostel-text {
+        font-size: 0.9em;
+        grid-row: 1 / 2;
+    }
+
+    .labs-text {
+        font-size: 0.8em;
+    }
+
+    .labs-list-text {
+        font-size: 0.7em;
+    }
+
+    .scroll-list-holder {
+        width: 90vw;
+        height: 7em;
+    }
+
+    .labs-list-image {
+        width: 2em;
+        height: 2em;
+    }
+
+    .hostel-image-text {
+        font-size: 1.8vw;
+    }
+
+    .campuses-holder {
+        height: 132vw;
+        width: 91.5vw;
+        position: static;
+    }
+
+    .campuses-grid {
+        display: grid;
+        grid-template-columns: 54vw 36vw;
+        grid-template-rows: 60vw 36vw 36vw;
+        gap: 0.5vw;
+        width: calc(100% - 0.5vw);
+        height: 100%;
+    }
+
+    #vr78-link {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+    }
+
+    #vr78 {
+        font-size: 3.2vw;
+    }
+
+    #vr78 .campus-cover {
+        height: 6vw;
+    }
+
+    #vr86-link {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #vr86 {
+        font-size: 2.5vw;
+    }
+
+    #vr86 .campus-cover {
+        height: 4.5vw;
+    }
+
+    #pyataya-sokolinoygori-link {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        font-size: 2vw;
+    }
+
+    #pyataya-sokolinoygori {
+        font-size: 2vw;
+    }
+
+    #pyataya-sokolinoygori .campus-cover {
+        height: 6vw;
+    }
+
+    #malayapirogovskaya-link {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    #malayapirogovskaya {
+        font-size: 2vw;
+    }
+
+    #malayapirogovskaya .campus-cover {
+        height: 6vw;
+        bottom: -1.5vw;
+    }
+
+    #strominka20-link {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    #strominka20{
+        font-size: 2.5vw;
+    }
+
+    #strominka20 .campus-cover {
+        height: 7vw;
+        bottom: -2vw;
+        left: -0.5vw;
+        transform: rotate(3deg);
+    }
+
+    #campuses-header {
+        display: none;
+        position: absolute;
+    }
+
+    #campuses-header2 {
+        display: flex;
+    }
+
+    .hostel-list {
+        display: grid;
+        width: 90vw;
+        margin: 0;
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-template-rows: 30vw 30vw;
+        gap: 1vw;
+        grid-column: 1 /2;
+        grid-row: 2 / 3;
+    }
+
+    .hostel-holder {
+        display: grid;
+        grid-template-rows: 1fr 61vw;
+        grid-template-columns: 100%;
+        row-gap: 0.5vw;
+        margin-top: 0.5vw;
+        padding: 1vw;
+        padding-top: 0.5vw;
+    }
+}
+
+@media (max-width:350px) {
+    h1 {
+        font-size: 0.7em;
+    }
+
+    h2 {
+        font-size: 0.7em;
+    }
+
+    .text {
+        font-size: 0.7em;
+    }
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #f0f0f0;
+    position: relative;
+    margin-left: 1.25em;
+    margin-bottom: 0;
+}
+
+.white-square {
+    position: absolute;
+    height: 80%;
+    width: 0.3em;
+    border: none;
+    background-color: #f0f0f0;
+    left: -0.5em;
+}
+
+header {
+    height: 12.5vw;
+    background-image: url("top-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    width: 100%;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.ist-holder {
+    background-color: #212F3C;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+}
+
+.campuses-holder {
+    margin: 0.5vw auto;
+    padding: 0.5vw;
+    position: initial;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    display: inline;
+    text-align: right;
+    margin: 0;
+    position: relative;
+    color: #f0f0f0;
+}
+
+.slash-line {
+    transform: rotate(-15deg);
+    position: absolute;
+    width: 0.2em;
+    height: 90%;
+    background-color: #f0f0f0;
+    left: -0.5em;
+}
+
+#vr78 {
+    background-image: url("vr78.jpg");
+}
+
+#vr86 {
+    background-image: url("vr86.jpg");
+}
+
+#pyataya-sokolinoygori {
+    background-image: url("5-yasokolinoygori.jpg");
+}
+
+#malayapirogovskaya {
+    background-image: url("malayapirogovskaya.jpg");
+}
+
+#strominka20 {
+    background-image: url("strominka20.jpg");
+}
+
+.campuses-grid-elem-link {
+    display: block;
+    height:100%;
+}
+
+.campuses-grid-elem {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.2s ease-in;
+}
+
+.campuses-grid-elem:hover {
+    background-size: 105%;
+}
+
+.campuses-grid-elem:hover .campus-cover {
+    background-color: #34495E;
+}
+
+p{
+    text-indent: 2em;
+    margin-bottom: 0px;
+    margin-top: 0.5vw;
+}
+
+.text {
+    font-family: 'Nunito', sans-serif;
+    color: #f0f0f0;
+    margin: 0 2em 1em;
+}
+
+.address-campus {
+    font-family: 'Nunito', sans-serif;
+    color: #f0f0f0;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0vw;
+    left: 0.3vw;
+    z-index: 1;
+}
+
+.campus-cover {
+    background-color: #212F3C;
+    width: 120%;
+    position: absolute;
+    transition: all 0.2s ease-in;
+}
+
+.hostel-grid-elem {
+    overflow: hidden;
+    position: relative;
+}
+
+.hostel-image {
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in;
+}
+
+.hostel-image:hover {
+    filter: blur(5px) brightness(0.5);
+}
+
+
+.hostel-text {
+    text-indent: 1.2vw;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    color: #f0f0f0;
+    margin: 0.1vw;
+}
+
+.hostel-image-text {
+    font-family: 'Nunito', sans-serif;
+    color: #f0f0f0;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: -50vw;
+    margin: 0 0.5vw;
+    transition: all 0.2s ease-in;
+    pointer-events: none;
+}
+
+.hostel-image-header {
+    background-color: #212F3C;
+    color: #f0f0f0;
+    font-size: 1em;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
+
+.hostel-image:hover+.hostel-image-text {
+    top: 0.5vw;
+    text-indent: 0.5vw;
+}
+
+.labs-holder {
+    margin: 0.5vw auto;
+    padding: 0vw 1vw;
+}
+
+.labs-text {
+    font-family: 'Nunito', sans-serif;
+    color: #f0f0f0;
+    margin: 0.5vw 1.5em;
+}
+
+.labs-list {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.hide-list {
+    width: 100%;
+    height: 100%;
+}
+
+.scroll-list-holder {
+    margin: 0 auto;
+    margin-top: 2vw;
+    position: relative;
+}
+
+.labs-list-elem {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.labs-list-text {
+    font-family: 'Nunito', sans-serif;
+    color: #f0f0f0;
+    display: inline;
+    user-select: none;
+}
+
+.labs-list-image {
+    padding: 0.2vw;
+    user-select: none;
+}
+
+.labs-list-scroll {
+    position: absolute;
+    width: 1.3vw;
+    height: 16vw;
+    right: -1vw;
+    top: 0;
+    background-color: #566573;
+}
+
+.thumb {
+    background-color: #34495E;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2vw;
+}
+
+footer {
+    display: grid;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    color: #f0f0f0;
+    margin-top: 1vw;
+    padding: 0.5vw 1vw;
+    background-color: #212F3C;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #34495E;
+}
+
+.inst-holder {
+    width: 95%;
+    padding-top: 0.5vw;
+    margin: 0 auto;
+    margin-top: 1vw;
+    padding-bottom: 2vw;
+    background-color: #212F3C;
+}
+
+
+.inst-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.header2-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: end;
+    justify-content: end;
+    margin: 0.5em 1em;
+}

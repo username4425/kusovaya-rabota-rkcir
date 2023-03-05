@@ -1,0 +1,234 @@
+@media (max-width: 2560px) {
+    h1 {
+        font-size: 2vw;
+    }
+
+    h2 {
+        font-size: 1.8vw;
+    }
+
+    .text {
+        font-size: 1.35vw;
+    }
+}
+
+@media(hover:hover) {
+    .gallery-button {
+        position: absolute;
+        width: 3vw;
+        height: 3vw;
+        top: 48.5%;
+        border: none;
+        border-radius: 50%;
+        background-color: rgba(240, 240, 240, 0.7);
+        transition: all 0.2s ease-in;
+        opacity: 0;
+        font-family: 'Nunito', sans-serif;
+        color: #34495E;
+        font-size: 2vw;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    #next {
+        right: 2vw;
+    }
+
+    #previous {
+        left: 2vw;
+    }
+
+    .images-panel:hover ~ .gallery-button,
+    .gallery-button:hover {
+        opacity: 1.0;
+    }
+}
+
+@media(hover:none) {
+    .gallery-button {
+        position: absolute;
+        width: 20%;
+        height: 100%;
+        top: 0;
+        border: none;
+        border-radius: 0;
+        background: none;
+        opacity:1;
+        font-family: 'Nunito', sans-serif;
+        color: #f0f0f0;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    #next {
+        right: 0;
+        text-align:end;
+    }
+
+    #previous {
+        left: 0;
+        text-align:start;
+    }
+}
+
+@media(max-width: 1000px) {
+    body {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2.2vw;
+    }
+
+    h2 {
+        font-size: 2.2vw;
+    }
+
+    .text {
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 650px) {
+    body{
+        font-size:0.7em;
+    }
+
+    .text {
+        font-size: 0.7em;
+    }
+
+    h1 {
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+}
+
+.white-square {
+    position: absolute;
+    height: 80%;
+    width: 0.3em;
+    border: none;
+    background-color: #f0f0f0;
+    left: -0.5em;
+}
+
+.header2-holder {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: end;
+    justify-content: end;
+    margin: 0.5em 2.5em;
+}
+
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    display: inline;
+    text-align: right;
+    margin: 0;
+    position: relative;
+    color: #f0f0f0;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #f0f0f0;
+    position: relative;
+    margin-left: 1.25em;
+    margin-bottom: 0;
+}
+
+header {
+    height: 12.5vw;
+    background-image: url("top-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    margin: 0;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+
+.gallery {
+    height: 25vw;
+    width:90vw;
+    margin:0 auto;
+    background-color: #212F3C;
+    padding: 2vw;
+}
+
+.images-cover {
+    overflow: hidden;
+    position: relative;
+}
+
+.images-panel {
+    display: grid;
+    gap: 2.5vw;
+    grid-template-rows: 22.5vw;
+    grid-template-columns: 30vw 30vw 30vw 30vw 30vw;
+    position: relative;
+}
+
+#image1 {
+    background-image: url("gallery/pyataya-sokolinoygori/1.jpg");
+}
+
+#image2 {
+    background-image: url("gallery/pyataya-sokolinoygori/2.jpg");
+}
+
+#image3 {
+    background-image: url("gallery/pyataya-sokolinoygori/3.jpg");
+}
+
+
+#image4 {
+    background-image: url("gallery/pyataya-sokolinoygori/4.jpg");
+}
+
+#image5 {
+    background-image: url("gallery/pyataya-sokolinoygori/5.jpg");
+}
+
+.gallery-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: #34495E;
+    padding: 0px;
+    margin: 0px;
+}
+
+.slash-line {
+    transform: rotate(-15deg);
+    position: absolute;
+    width: 0.2em;
+    height: 90%;
+    background-color: #f0f0f0;
+    left: -0.5em;
+}
+
+.text {
+    font-family: 'Nunito', sans-serif;
+    color: #f0f0f0;
+    margin: 0 2em 1em;
+}
+
+p{
+    text-indent: 2em;
+    margin-bottom: 0px;
+    margin-top: 0.5vw;
+}
+
+header a{
+    display: block;
+    height:100%;
+}
